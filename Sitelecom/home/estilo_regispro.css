@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Open Sans';
+    text-decoration: none;
+    
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ccc;
+}
+/*HEADER SUPERIOR*/
+.header__superior{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+.inicio img{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+.logo img{
+    width: 100%;
+}
+.title-container {
+    /*float: left;  Alinea el título a la izquierda */
+    padding: 14px;
+    color: #023877;
+    font-family:'Open Sans';
+    font-size: 15px;/*para disminuir el tamaño de letra*/
+}
+/*barra menu*/
+.container__menu{
+    width: 100%;
+    height: 70px;
+    background: #023877;
+    padding: 0px 20px;
+}
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+nav{
+    height: 100%;
+}
+nav > ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+nav  ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: white;
+    text-transform: uppercase; /*para poner la letra en mayuscula*/
+}
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background: #0074c7;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.title-txt1 {
+    text-align: center; /* Centrar el contenido */
+    margin: 1% 1%; /* Espacio en la parte superior e inferior */
+    text-align: left;
+}
+.title-txt1{
+    font-size: 6px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio inferior */
+    font-family:'Open Sans';
+    margin-left:300px;
+}
+
+.title-txt{
+    text-align: center; /* Centrar el contenido */
+    margin: 1% 1%; /* Espacio en la parte superior e inferior */
+    text-align: left;
+}
+.title-txt h1 {
+    font-size: 12px; /* Tamaño de fuente */
+    margin-bottom: 2px; /* Espacio inferior */
+    font-family:'Open Sans';
+    margin-left:300px;
+    
+}
+
+.title-txt input[type="text"] {
+    width: 5%; /* Ancho completo del contenedor */
+    padding: 1%; /* Espacio interno */
+    border: 1px solid #bbbaba; /* Borde con color gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center;
+    margin-left: 300px;
+   
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.containerbtn {
+    width: 95%;
+    text-align: right; /* Alinea los botones a la derecha dentro del contenedor */
+    display: flex;  /*Utiliza el modelo de caja flexible para acomodar los botones */
+    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea cuando no quepan en el ancho del contenedor */
+    justify-content: flex-end; /* Alinea los botones a la derecha dentro del contenedor */
+    margin: 20rcap; /*Agrega margen al contenedor */
+    margin-top: -200px;
+    margin-left: -150px;
+}
+.top-row, .bottom-row {
+    width: 92%;
+    display: flex;
+    justify-content:flex-end;
+    margin: 20rcap; /*Agrega margen al contenedor */   
+    margin-top: 5px;
+    margin-right:270px;
+    margin-left: -166px;
+}
+.btn-a {
+    width: 80px; /* Ancho de los botones */
+    height: 10px; /* Alto de los botones */
+    margin: 10px; /* Espaciado entre los botones */
+    background-color: #f8681b;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex; /* Utiliza el modelo de caja flexible para centrar el contenido del botón verticalmente y horizontalmente */
+    align-items: center; /* Centra verticalmente el contenido del botón */
+    justify-content: center; /* Centra horizontalmente el contenido del botón */
+    font-size: 11px; /* Reducción del tamaño de la letra */
+    font-family:'Open Sans'; /* tipo de letra*/
+    border-radius: 6%; /* Hace que los botones se vean ligeramente ovalados */
+    white-space: nowrap; /* Evita el salto de línea del texto */
+    overflow: hidden; /* Oculta el texto que se desborde */
+    font-weight: bold; /* Hace que el texto esté en negrita */
+    
+}
+
+
+

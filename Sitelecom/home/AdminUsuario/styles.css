@@ -1,0 +1,10 @@
+.form-group1 {
+    position: relative;
+}
+  .form-group1 i {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 40px; /* Ajusta la posición del ícono según tu preferencia */
+    cursor: pointer;
+}

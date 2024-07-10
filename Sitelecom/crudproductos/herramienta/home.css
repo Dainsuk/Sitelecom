@@ -1,0 +1,32 @@
+.t {
+    text-align: center;
+	width:100%;
+	left: -200%;
+  
+}
+
+.t i{
+position: relative;
+top:23px;
+font-size:190%;
+color:black;
+margin-left:-80%;
+}
+
+.logo img{
+	position: relative;
+	width:35% ;
+	margin-right:100%;
+
+
+	
+	
+}
+.logo{
+	width: 100%;
+    margin: auto;
+	display: grid;
+    place-items: center;
+	
+}
+ 

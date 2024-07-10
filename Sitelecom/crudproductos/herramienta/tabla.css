@@ -1,0 +1,50 @@
+body{
+	
+	font-family: Arial;
+}
+
+#main-container{
+    margin: 0 auto;
+	width: 90%;
+
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width:85%;
+
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #3164d1;
+	border-bottom: solid 5px #3164d1;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+
+
+.e i{
+    color:black;
+}
+
+.edt i{
+    color:rgb(99, 98, 98);
+}
+
+.baja i{
+    color:rgb(141, 16, 16);
+}
+
+.alta i{
+    color:rgb(48, 177, 22);
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serifs;
+}
+
+
+ 
+.container{
+    padding: relative;
+}
+
+.boton1{
+    width:300px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius:  5px 0 0 5px;
+    border:0;
+    outline:none;
+    font-size: 1rem;
+    background: #f1f1f1;
+
+}
+
+.boton{
+background: #3164d1;
+padding: 11px 15.5px;
+
+border:0;
+top:0;
+right:0;
+margin: auto;
+border-radius:0 5px 5px 0;
+color:#fff;
+cursor:pointer;
+}
+
+.boton:hover{
+    background-color:rgb(60, 132, 190);
+}
+

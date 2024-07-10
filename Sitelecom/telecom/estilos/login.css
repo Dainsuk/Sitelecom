@@ -1,0 +1,29 @@
+@import url(./PaletaColores.css);
+@import url(./extras.css);
+
+.card-header{
+    background: var(--principal-color1);
+}
+
+.contenedor{
+    width: 33%;
+    border: none;
+}
+
+.card-body{
+    background: rgb(245, 244, 244);
+    
+}
+.fg{
+    align-items: center;
+}
+.password-container {
+    position: relative;
+}
+  .password-container i {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    right: 20px; /* Ajusta la posición del ícono según tu preferencia */
+    cursor: pointer;
+}
